@@ -1,0 +1,11 @@
+Ce projet est un jeu de labyrinthe.
+Il a été codé en Java, et réalisé en binôme en deuxième année à l'IUT Informatique.
+
+Ce projet existe en deux versions : le projet appelé Labyrinthe v1 contient le projet dans une version contenant plus de fonctionnalités,
+mais à cause de bugs et d'erreurs diverses, nous avons dû retravailler le code pour obtenir un exécutable pour notre soutenance de projet.
+C'est le code contenu dans le projet Labyrinthe v2.
+
+La fonctionnalité que nous n'avons pas pu implémenter dans la version 2 était le calcul préalable de toutes les distances
+dans le labyrinthe à l'aide de l'architecture de graphes, qui ralentit le lancement du jeu, mais permet de ne pas avoir
+à recalculer les distances pour l'affichage de la lumière, notamment lorsque le joueur repasse sur une case déjà précedemment
+visitée.
